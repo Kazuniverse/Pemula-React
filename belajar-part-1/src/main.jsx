@@ -3,9 +3,10 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import KalkulatorBMI from "./BMIcalcu.jsx";
+import TodoList from "./catatan.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <KalkulatorBMI />
+    <TodoList />
   </StrictMode>
 );
